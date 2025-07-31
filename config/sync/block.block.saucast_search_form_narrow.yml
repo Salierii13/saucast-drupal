@@ -1,0 +1,23 @@
+uuid: 9ff120bb-d9fb-49f6-98ca-301cee66f081
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - saucast
+_core:
+  default_config_hash: _nZjxxdypO6xrOAJkCYD81v0L7wh2zbCAVO7_C-UKIc
+id: saucast_search_form_narrow
+theme: saucast
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

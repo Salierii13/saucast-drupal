@@ -1,0 +1,22 @@
+uuid: 4d3a3cbd-8d75-43ec-9b43-9b0a81dc69a7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - saucast
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: saucast_primary_local_tasks
+theme: saucast
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

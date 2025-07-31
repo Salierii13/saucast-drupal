@@ -1,0 +1,8 @@
+name: Saucast Olivero Subtheme
+type: theme
+description: 'Subtema personalizado basado en Olivero.'
+core_version_requirement: ^11
+base theme: olivero
+libraries:
+  - saucast/global-styling
+package: Custom

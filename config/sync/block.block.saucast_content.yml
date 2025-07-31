@@ -1,0 +1,22 @@
+uuid: 5c83972d-e4b0-4fbc-8cf0-fcf9f092f093
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - saucast
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: saucast_content
+theme: saucast
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

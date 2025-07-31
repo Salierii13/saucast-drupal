@@ -1,0 +1,20 @@
+uuid: a5409cc4-2f8d-445c-975b-0cb54d9a6a71
+langcode: en
+status: true
+dependencies:
+  theme:
+    - saucast
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: saucast_page_title
+theme: saucast
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,44 @@
+# Composer dependencies
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+
+# Archivos generados
+/web/sites/*/files
+/web/sites/*/private
+/web/sites/*/translations
+/web/sites/simpletest
+
+# Configuraciones locales
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+# Archivos de caché y logs
+*.log
+*.sqlite
+*.sql
+*.sql.gz
+*.tar.gz
+
+# IDEs / editores
+.idea/
+.vscode/
+*.sublime-*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Node.js
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Archivos CSS/JS compilados y node_modules
+web/themes/custom/**/node_modules
+# web/themes/custom/**/css/*.css
+# web/themes/custom/**/js/*.js

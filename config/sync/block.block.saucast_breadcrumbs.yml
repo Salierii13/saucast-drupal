@@ -1,0 +1,22 @@
+uuid: b0e83ddd-2bd8-4306-9818-c38320787830
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - saucast
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: saucast_breadcrumbs
+theme: saucast
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
